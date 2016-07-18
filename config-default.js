@@ -24,6 +24,12 @@ module.exports = {
     // custom css to embed in the terminal window
     termCSS: '',
 
+    // default number of rows
+    rows: 40,
+
+    // default number of columns
+    cols: 100,
+
     // custom padding (css format, i.e.: `top right bottom left`)
     padding: '12px 14px',
 

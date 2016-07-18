@@ -90,6 +90,14 @@ const reducer = (state = initial, action) => {
           ret.borderColor = config.borderColor;
         }
 
+        if (null != config.rows) {
+          ret.rows = config.rows;
+        }
+
+        if (null != config.cols) {
+          ret.cols = config.cols;
+        }
+
         if (null != config.padding) {
           ret.padding = config.padding;
         }
